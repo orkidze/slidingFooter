@@ -29733,3 +29733,7 @@ figure.alignnone {
     border-spacing: 15px;
     z-index:98;
 }
+#footer_content{
+    padding-top: 15px;
+     padding-bottom: 30px;
+}
