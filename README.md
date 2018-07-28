@@ -1,0 +1,1 @@
+WEB implementation of sliding footer using JQuery :)
