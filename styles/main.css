@@ -29725,15 +29725,54 @@ figure.alignnone {
     color:black;
 }
 .footer{
+    text-align: center;
     background-color: white;
     bottom: 0;
     width : 100%;
     position: fixed;
-    border-top: solid 2px grey;
-    border-spacing: 15px;
+    border-top: solid 0px;
+    border-spacing: 10px;
     z-index:98;
 }
 #footer_content{
     padding-top: 15px;
      padding-bottom: 30px;
+}
+.footer-top{
+    font-size: 12px;
+    border-top:grey 1px solid;
+    border-bottom:grey 1px solid;
+   width: 100vw;
+  margin-left: calc(-50vw + 50%);  
+}
+.footer-mid{
+    
+    text-align: left;
+}
+.footer-mid li{
+    font-size: 13px;
+    list-style-type: none;
+    
+}
+.footer-col-title{
+    padding-bottom: 4px;
+}
+.yellow-text{
+    color: #e2912e;
+}
+.footer-mid-socialnetworks img {
+    height: 60px;
+    padding: 5px;
+}
+.footer-bottom{
+    text-align: left;
+     width: 100vw;
+  margin-left: calc(-50vw + 50%);  
+    background-color: #eeeeee;
+}
+.footer-bottom-rigt button,input{
+    width: 100%;
+}
+.footer-bottom-left img{
+    height: 30px; padding: 3px;
 }
