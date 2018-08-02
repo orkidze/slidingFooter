@@ -29776,3 +29776,15 @@ figure.alignnone {
 .footer-bottom-left img{
     height: 30px; padding: 3px;
 }
+@supports (-ms-ime-align:auto) {
+    .footer-top{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .footer-mid{
+        padding-top: 15px;
+    }
+    .footer-bottom{
+         padding-top: 15px;
+    }
+}
